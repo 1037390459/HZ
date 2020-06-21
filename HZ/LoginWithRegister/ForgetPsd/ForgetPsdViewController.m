@@ -7,7 +7,7 @@
 //
 
 #import "ForgetPsdViewController.h"
-#import "VerfiViewController.h"
+#import "ForgetPsd2ViewController.h"
 
 @interface ForgetPsdViewController (){
     // 输入手机号
@@ -66,10 +66,23 @@
         [QMUITips showError:@"请您输入需要注册手机号或邮箱"];
         return;
     }
-    VerfiViewController * verfiVC = [[VerfiViewController alloc]init];
-    verfiVC.accountStr = phoneTextFiled.text;
-    verfiVC.naviTitle = @"重置密码";
-    [self.navigationController pushViewController:verfiVC animated:YES];
+    NSLog(@"getVerfiCode api");
+    [MBProgressHUD showHUDAddedTo:self.view animated:true];
+       @weakify(self);
+       NSDictionary *parameters = @{@"email_phone":phoneTextFiled.text};
+       [[self class]POST:[NSString stringWithFormat:@"%@/index.php/login/code",HOST_URL] parameters:parameters progress:nil completionHandler:^(id responseObj, NSError *error) {
+           @strongify(self);
+           [MBProgressHUD hideHUDForView:self.view animated:false];
+           if (error) {
+               [MBProgressHUD showWarning:error.localizedDescription toView:self.view];
+               return;
+           }
+           ForgetPsd2ViewController * psd2Vc = [[ForgetPsd2ViewController alloc]init];
+           psd2Vc.accountStr = self->phoneTextFiled.text;
+           psd2Vc.naviTitle = @"重置密码";
+           psd2Vc.countryId = self.countryId;
+           [self.navigationController pushViewController:psd2Vc animated:YES];
+       }];
 }
 
 - (BOOL)shouldHideKeyboardWhenTouchInView:(UIView *)view{

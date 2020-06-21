@@ -12,6 +12,8 @@
 		7B26E6AF2497B7DE002CDA15 /* MBProgressHUD+KR.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B26E6AE2497B7DE002CDA15 /* MBProgressHUD+KR.m */; };
 		7B26E6B22497C725002CDA15 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B26E6B12497C725002CDA15 /* UserInfo.m */; };
 		7B26E6B52497C909002CDA15 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B26E6B42497C909002CDA15 /* UserModel.m */; };
+		7BEDE0E4249F3BEA00F90F35 /* ForgetPsd2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDE0E3249F3BEA00F90F35 /* ForgetPsd2ViewController.m */; };
+		7BEDE0E7249F3EEC00F90F35 /* ForgetPsd3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDE0E6249F3EEC00F90F35 /* ForgetPsd3ViewController.m */; };
 		BA7EB12EA827891E08CF3F07 /* libPods-HZUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C4CC2260E4425883CD69EF /* libPods-HZUITests.a */; };
 		BB992E6F763A8BEDD3B6BB34 /* libPods-HZ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 616FD891487476901A22820D /* libPods-HZ.a */; };
 		D20096DF2331BFAF00078E76 /* RegisteredWithAreaAndNumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D20096DE2331BFAF00078E76 /* RegisteredWithAreaAndNumVC.m */; };
@@ -86,6 +88,10 @@
 		7B26E6B12497C725002CDA15 /* UserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		7B26E6B32497C909002CDA15 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		7B26E6B42497C909002CDA15 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		7BEDE0E2249F3BEA00F90F35 /* ForgetPsd2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPsd2ViewController.h; sourceTree = "<group>"; };
+		7BEDE0E3249F3BEA00F90F35 /* ForgetPsd2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPsd2ViewController.m; sourceTree = "<group>"; };
+		7BEDE0E5249F3EEC00F90F35 /* ForgetPsd3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPsd3ViewController.h; sourceTree = "<group>"; };
+		7BEDE0E6249F3EEC00F90F35 /* ForgetPsd3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPsd3ViewController.m; sourceTree = "<group>"; };
 		85D714315095C416C4C991D2 /* Pods-HZUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZUITests/Pods-HZUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0C5F4CBA5F7085A4096A6FC /* Pods-HZTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZTests/Pods-HZTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D20096DD2331BFAF00078E76 /* RegisteredWithAreaAndNumVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisteredWithAreaAndNumVC.h; sourceTree = "<group>"; };
@@ -252,6 +258,10 @@
 			children = (
 				D20096EC2332119B00078E76 /* ForgetPsdViewController.h */,
 				D20096ED2332119B00078E76 /* ForgetPsdViewController.m */,
+				7BEDE0E2249F3BEA00F90F35 /* ForgetPsd2ViewController.h */,
+				7BEDE0E3249F3BEA00F90F35 /* ForgetPsd2ViewController.m */,
+				7BEDE0E5249F3EEC00F90F35 /* ForgetPsd3ViewController.h */,
+				7BEDE0E6249F3EEC00F90F35 /* ForgetPsd3ViewController.m */,
 			);
 			path = ForgetPsd;
 			sourceTree = "<group>";
@@ -871,9 +881,11 @@
 				7B26E6B22497C725002CDA15 /* UserInfo.m in Sources */,
 				D2F1F5142334AFA000F73C0F /* MarketCollectionViewCell.m in Sources */,
 				D230B0D723335292004E6802 /* MineViewController.m in Sources */,
+				7BEDE0E4249F3BEA00F90F35 /* ForgetPsd2ViewController.m in Sources */,
 				D230B0DB23336283004E6802 /* AddDeviceViewController.m in Sources */,
 				D20096E32331D7C400078E76 /* VerfiViewController.m in Sources */,
 				D230B0BE2333162F004E6802 /* DeviceCellModel.m in Sources */,
+				7BEDE0E7249F3EEC00F90F35 /* ForgetPsd3ViewController.m in Sources */,
 				D20096EE2332119B00078E76 /* ForgetPsdViewController.m in Sources */,
 				D2F1F511233470DF00F73C0F /* DeviceDetailViewController.m in Sources */,
 				D20096EA2331FFBC00078E76 /* SuccessViewController.m in Sources */,

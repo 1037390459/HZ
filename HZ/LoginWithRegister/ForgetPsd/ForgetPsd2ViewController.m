@@ -1,15 +1,15 @@
 //
-//  VerfiViewController.m
+//  ForgetPsd2ViewController.m
 //  HZ
 //
-//  Created by 李灿 on 2019/9/18.
-//  Copyright © 2019 李灿. All rights reserved.
+//  Created by million on 2020/6/21.
+//  Copyright © 2020 李灿. All rights reserved.
 //
 
-#import "VerfiViewController.h"
-#import "PsdSetViewController.h"
+#import "ForgetPsd2ViewController.h"
+#import "ForgetPsd3ViewController.h"
 
-@interface VerfiViewController (){
+@interface ForgetPsd2ViewController (){
     // 提示lab
     QMUILabel * alarmLabel;
     // 验证码输入框
@@ -22,8 +22,8 @@
 
 @end
 
-@implementation VerfiViewController
 
+@implementation ForgetPsd2ViewController
 
 - (void)viewWillAppear:(BOOL)animated{
     [super setupNavigationItems];
@@ -115,11 +115,12 @@
                [MBProgressHUD showWarning:error.localizedDescription toView:self.view];
                return;
            }
-          PsdSetViewController * psdSetVC = [[PsdSetViewController alloc]init];
-          psdSetVC.accountStr = self.accountStr;
-          psdSetVC.code = self->verfiText.text;
-          psdSetVC.countryId = self.countryId;
-          [self.navigationController pushViewController:psdSetVC animated:YES];
+          ForgetPsd3ViewController * psd3Vc = [[ForgetPsd3ViewController alloc]init];
+          psd3Vc.naviTitle = self.naviTitle;
+          psd3Vc.accountStr = self.accountStr;
+          psd3Vc.code = self->verfiText.text;
+          psd3Vc.countryId = self.countryId;
+          [self.navigationController pushViewController:psd3Vc animated:YES];
        }];
 }
 
