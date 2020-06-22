@@ -12,7 +12,7 @@
 #import "Device/Controller/DeviceViewController.h"
 #import "Market/Controller/MarketViewController.h"
 #import "Advisory/Controller/AdvisoryViewController.h"
-#import "Mine/Controller/MineViewController.h"
+#import "MineTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -23,8 +23,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self setupGlobalConfig];
     [self setLoginRootVC];
     return YES;
+}
+
+- (void)setupGlobalConfig {
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setShadowImage:[UIImage new]];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor], NSFontAttributeName : [UIFont systemFontOfSize:18]}];
+    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
+    
+    //设置UIBarButtonItem在导航栏默认样式
+    UIBarButtonItem *barButtonItem = [UIBarButtonItem appearanceWhenContainedInInstancesOfClasses:@[UINavigationBar.class]];
+    barButtonItem.tintColor = [UIColor whiteColor];
+    
+    [UITableViewHeaderFooterView appearance].tintColor = [UIColor clearColor];
+
+    //设置userdefaults默认值
+    NSDictionary *defaultValues =  @{};
+    [[NSUserDefaults standardUserDefaults] registerDefaults:defaultValues];
 }
 
 - (void)setLoginRootVC{
@@ -63,7 +81,7 @@
     advisoryNa.tabBarItem.selectedImage = [UIImageMake(@"tabbar_advisorySelected") imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     [advisoryNa.tabBarItem setTitleTextAttributes:[SingleHelper getAttributesWithFont:UIFontMake(12.0) andColor:[UIColor redColor]] forState:UIControlStateSelected];
     // 我的
-    MineViewController * mineVC = [[MineViewController alloc]init];
+    MineTableViewController * mineVC = [UIStoryboard storyboardWithName:@"Mine" bundle:nil].instantiateInitialViewController;
     mineVC.title = @"我的";
     mineVC.hidesBottomBarWhenPushed = NO;
     QMUINavigationController * mineNa = [[QMUINavigationController alloc]initWithRootViewController:mineVC];

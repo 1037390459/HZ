@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MLPickerView">
+            <connections>
+                <outlet property="cancelBtn" destination="I9i-Lk-A7Y" id="aHX-YO-zmy"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="CcG-rv-ylr"/>
+                <outlet property="pickerView" destination="hbX-42-DkK" id="LhJ-h7-GLi"/>
+                <outlet property="sureBtn" destination="ohz-ZK-mhE" id="GJJ-8b-oDE"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Content View">
+            <rect key="frame" x="0.0" y="0.0" width="410" height="425"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6xo-kZ-gRs">
+                    <rect key="frame" x="0.0" y="0.0" width="410" height="40"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9i-Lk-A7Y">
+                            <rect key="frame" x="10" y="3" width="56" height="34"/>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohz-ZK-mhE">
+                            <rect key="frame" x="362" y="3" width="38" height="34"/>
+                            <state key="normal" title="Sure">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="ohz-ZK-mhE" secondAttribute="trailing" constant="10" id="4WF-dA-g4y"/>
+                        <constraint firstAttribute="height" constant="40" id="YyK-D7-aSL"/>
+                        <constraint firstItem="I9i-Lk-A7Y" firstAttribute="centerY" secondItem="6xo-kZ-gRs" secondAttribute="centerY" id="i2T-TK-UzD"/>
+                        <constraint firstItem="ohz-ZK-mhE" firstAttribute="centerY" secondItem="6xo-kZ-gRs" secondAttribute="centerY" id="lVM-eD-Iys"/>
+                        <constraint firstItem="I9i-Lk-A7Y" firstAttribute="leading" secondItem="6xo-kZ-gRs" secondAttribute="leading" constant="10" id="tam-Os-unv"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dCz-uh-R8k">
+                    <rect key="frame" x="0.0" y="40" width="410" height="385"/>
+                    <subviews>
+                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hbX-42-DkK">
+                            <rect key="frame" x="0.0" y="0.0" width="410" height="385"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="gW5-3F-J0I"/>
+                                <outlet property="delegate" destination="-1" id="6We-KD-cxH"/>
+                            </connections>
+                        </pickerView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="hbX-42-DkK" firstAttribute="centerX" secondItem="dCz-uh-R8k" secondAttribute="centerX" id="H8u-JY-LwZ"/>
+                        <constraint firstItem="hbX-42-DkK" firstAttribute="centerY" secondItem="dCz-uh-R8k" secondAttribute="centerY" id="PhM-31-NX0"/>
+                        <constraint firstItem="hbX-42-DkK" firstAttribute="leading" secondItem="dCz-uh-R8k" secondAttribute="leading" id="bOX-uX-mJq"/>
+                        <constraint firstItem="hbX-42-DkK" firstAttribute="top" secondItem="dCz-uh-R8k" secondAttribute="top" id="vB1-6N-VBu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dCz-uh-R8k" firstAttribute="top" secondItem="6xo-kZ-gRs" secondAttribute="bottom" id="1Ls-bb-2F0"/>
+                <constraint firstItem="6xo-kZ-gRs" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="4TV-S4-Ywd"/>
+                <constraint firstItem="6xo-kZ-gRs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8PZ-pA-FTQ"/>
+                <constraint firstAttribute="bottom" secondItem="dCz-uh-R8k" secondAttribute="bottom" id="Fhw-sV-omI"/>
+                <constraint firstItem="6xo-kZ-gRs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Gvm-Rp-051"/>
+                <constraint firstItem="dCz-uh-R8k" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="szE-Kb-6Ir"/>
+                <constraint firstAttribute="trailing" secondItem="dCz-uh-R8k" secondAttribute="trailing" id="xcV-PA-fH4"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="42" y="-69.5"/>
+        </view>
+    </objects>
+</document>

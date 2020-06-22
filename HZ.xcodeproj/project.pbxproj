@@ -12,8 +12,25 @@
 		7B26E6AF2497B7DE002CDA15 /* MBProgressHUD+KR.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B26E6AE2497B7DE002CDA15 /* MBProgressHUD+KR.m */; };
 		7B26E6B22497C725002CDA15 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B26E6B12497C725002CDA15 /* UserInfo.m */; };
 		7B26E6B52497C909002CDA15 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B26E6B42497C909002CDA15 /* UserModel.m */; };
+		7B4E4F64249F788100804B5F /* MLPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E4F61249F788100804B5F /* MLPickerView.m */; };
+		7B4E4F65249F788100804B5F /* MLPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B4E4F63249F788100804B5F /* MLPickerView.xib */; };
+		7B4E4F7B249F78D200804B5F /* TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E4F68249F78D200804B5F /* TYAlertView.m */; };
+		7B4E4F7C249F78D200804B5F /* UIView+TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E4F6C249F78D200804B5F /* UIView+TYAlertView.m */; };
+		7B4E4F7D249F78D200804B5F /* TYAlertScaleFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E4F6D249F78D200804B5F /* TYAlertScaleFadeAnimation.m */; };
+		7B4E4F7E249F78D200804B5F /* TYAlertFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E4F6F249F78D200804B5F /* TYAlertFadeAnimation.m */; };
+		7B4E4F7F249F78D200804B5F /* TYAlertController+TransitionAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E4F70249F78D200804B5F /* TYAlertController+TransitionAnimate.m */; };
+		7B4E4F80249F78D200804B5F /* UIView+TYAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E4F72249F78D200804B5F /* UIView+TYAutoLayout.m */; };
+		7B4E4F81249F78D200804B5F /* TYAlertDropDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E4F73249F78D200804B5F /* TYAlertDropDownAnimation.m */; };
+		7B4E4F82249F78D200804B5F /* TYShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E4F76249F78D200804B5F /* TYShowAlertView.m */; };
+		7B4E4F83249F78D200804B5F /* TYBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E4F77249F78D200804B5F /* TYBaseAnimation.m */; };
+		7B4E4F84249F78D200804B5F /* TYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E4F79249F78D200804B5F /* TYAlertController.m */; };
+		7B9E456124A0DE4300794384 /* PrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9E456024A0DE4300794384 /* PrivacyViewController.m */; };
+		7B9E456424A0DE7600794384 /* QrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9E456324A0DE7600794384 /* QrCodeViewController.m */; };
+		7B9E456724A0DF0C00794384 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9E456624A0DF0C00794384 /* HelpViewController.m */; };
 		7BEDE0E4249F3BEA00F90F35 /* ForgetPsd2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDE0E3249F3BEA00F90F35 /* ForgetPsd2ViewController.m */; };
 		7BEDE0E7249F3EEC00F90F35 /* ForgetPsd3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDE0E6249F3EEC00F90F35 /* ForgetPsd3ViewController.m */; };
+		7BEDE0E9249F4A4C00F90F35 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BEDE0E8249F4A4C00F90F35 /* Mine.storyboard */; };
+		7BEDE0EC249F54B200F90F35 /* AccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDE0EB249F54B200F90F35 /* AccountTableViewController.m */; };
 		BA7EB12EA827891E08CF3F07 /* libPods-HZUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C4CC2260E4425883CD69EF /* libPods-HZUITests.a */; };
 		BB992E6F763A8BEDD3B6BB34 /* libPods-HZ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 616FD891487476901A22820D /* libPods-HZ.a */; };
 		D20096DF2331BFAF00078E76 /* RegisteredWithAreaAndNumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D20096DE2331BFAF00078E76 /* RegisteredWithAreaAndNumVC.m */; };
@@ -32,7 +49,7 @@
 		D230B0C12333213B004E6802 /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0C02333213B004E6802 /* DeviceViewController.m */; };
 		D230B0D1233351E5004E6802 /* MarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0D0233351E5004E6802 /* MarketViewController.m */; };
 		D230B0D423335248004E6802 /* AdvisoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0D323335248004E6802 /* AdvisoryViewController.m */; };
-		D230B0D723335292004E6802 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0D623335292004E6802 /* MineViewController.m */; };
+		D230B0D723335292004E6802 /* MineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0D623335292004E6802 /* MineTableViewController.m */; };
 		D230B0DB23336283004E6802 /* AddDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0DA23336283004E6802 /* AddDeviceViewController.m */; };
 		D230B0DE23336780004E6802 /* QMUICommonTableViewController+LC.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0DD23336780004E6802 /* QMUICommonTableViewController+LC.m */; };
 		D240040D23306901003FE529 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D240040C23306901003FE529 /* LoginViewController.m */; };
@@ -88,10 +105,41 @@
 		7B26E6B12497C725002CDA15 /* UserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		7B26E6B32497C909002CDA15 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		7B26E6B42497C909002CDA15 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		7B4E4F61249F788100804B5F /* MLPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPickerView.m; sourceTree = "<group>"; };
+		7B4E4F62249F788100804B5F /* MLPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPickerView.h; sourceTree = "<group>"; };
+		7B4E4F63249F788100804B5F /* MLPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLPickerView.xib; sourceTree = "<group>"; };
+		7B4E4F68249F78D200804B5F /* TYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertView.m; sourceTree = "<group>"; };
+		7B4E4F69249F78D200804B5F /* TYAlertDropDownAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertDropDownAnimation.h; sourceTree = "<group>"; };
+		7B4E4F6A249F78D200804B5F /* UIView+TYAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAutoLayout.h"; sourceTree = "<group>"; };
+		7B4E4F6B249F78D200804B5F /* TYShowAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYShowAlertView.h; sourceTree = "<group>"; };
+		7B4E4F6C249F78D200804B5F /* UIView+TYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAlertView.m"; sourceTree = "<group>"; };
+		7B4E4F6D249F78D200804B5F /* TYAlertScaleFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertScaleFadeAnimation.m; sourceTree = "<group>"; };
+		7B4E4F6E249F78D200804B5F /* TYBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBaseAnimation.h; sourceTree = "<group>"; };
+		7B4E4F6F249F78D200804B5F /* TYAlertFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertFadeAnimation.m; sourceTree = "<group>"; };
+		7B4E4F70249F78D200804B5F /* TYAlertController+TransitionAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYAlertController+TransitionAnimate.m"; sourceTree = "<group>"; };
+		7B4E4F71249F78D200804B5F /* TYAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertController.h; sourceTree = "<group>"; };
+		7B4E4F72249F78D200804B5F /* UIView+TYAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAutoLayout.m"; sourceTree = "<group>"; };
+		7B4E4F73249F78D200804B5F /* TYAlertDropDownAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertDropDownAnimation.m; sourceTree = "<group>"; };
+		7B4E4F74249F78D200804B5F /* TYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertView.h; sourceTree = "<group>"; };
+		7B4E4F75249F78D200804B5F /* UIView+TYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAlertView.h"; sourceTree = "<group>"; };
+		7B4E4F76249F78D200804B5F /* TYShowAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYShowAlertView.m; sourceTree = "<group>"; };
+		7B4E4F77249F78D200804B5F /* TYBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBaseAnimation.m; sourceTree = "<group>"; };
+		7B4E4F78249F78D200804B5F /* TYAlertScaleFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertScaleFadeAnimation.h; sourceTree = "<group>"; };
+		7B4E4F79249F78D200804B5F /* TYAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertController.m; sourceTree = "<group>"; };
+		7B4E4F7A249F78D200804B5F /* TYAlertFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertFadeAnimation.h; sourceTree = "<group>"; };
+		7B9E455F24A0DE4300794384 /* PrivacyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivacyViewController.h; sourceTree = "<group>"; };
+		7B9E456024A0DE4300794384 /* PrivacyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivacyViewController.m; sourceTree = "<group>"; };
+		7B9E456224A0DE7600794384 /* QrCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QrCodeViewController.h; sourceTree = "<group>"; };
+		7B9E456324A0DE7600794384 /* QrCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QrCodeViewController.m; sourceTree = "<group>"; };
+		7B9E456524A0DF0C00794384 /* HelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		7B9E456624A0DF0C00794384 /* HelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
 		7BEDE0E2249F3BEA00F90F35 /* ForgetPsd2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPsd2ViewController.h; sourceTree = "<group>"; };
 		7BEDE0E3249F3BEA00F90F35 /* ForgetPsd2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPsd2ViewController.m; sourceTree = "<group>"; };
 		7BEDE0E5249F3EEC00F90F35 /* ForgetPsd3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPsd3ViewController.h; sourceTree = "<group>"; };
 		7BEDE0E6249F3EEC00F90F35 /* ForgetPsd3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPsd3ViewController.m; sourceTree = "<group>"; };
+		7BEDE0E8249F4A4C00F90F35 /* Mine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
+		7BEDE0EA249F54B200F90F35 /* AccountTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountTableViewController.h; sourceTree = "<group>"; };
+		7BEDE0EB249F54B200F90F35 /* AccountTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountTableViewController.m; sourceTree = "<group>"; };
 		85D714315095C416C4C991D2 /* Pods-HZUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZUITests/Pods-HZUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0C5F4CBA5F7085A4096A6FC /* Pods-HZTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZTests/Pods-HZTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D20096DD2331BFAF00078E76 /* RegisteredWithAreaAndNumVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisteredWithAreaAndNumVC.h; sourceTree = "<group>"; };
@@ -127,8 +175,8 @@
 		D230B0D0233351E5004E6802 /* MarketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketViewController.m; sourceTree = "<group>"; };
 		D230B0D223335248004E6802 /* AdvisoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvisoryViewController.h; sourceTree = "<group>"; };
 		D230B0D323335248004E6802 /* AdvisoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvisoryViewController.m; sourceTree = "<group>"; };
-		D230B0D523335292004E6802 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
-		D230B0D623335292004E6802 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		D230B0D523335292004E6802 /* MineTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineTableViewController.h; sourceTree = "<group>"; };
+		D230B0D623335292004E6802 /* MineTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineTableViewController.m; sourceTree = "<group>"; };
 		D230B0D923336283004E6802 /* AddDeviceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddDeviceViewController.h; sourceTree = "<group>"; };
 		D230B0DA23336283004E6802 /* AddDeviceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddDeviceViewController.m; sourceTree = "<group>"; };
 		D230B0DC23336780004E6802 /* QMUICommonTableViewController+LC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QMUICommonTableViewController+LC.h"; sourceTree = "<group>"; };
@@ -218,6 +266,60 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7B4E4F5A249F746D00804B5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B4E4F62249F788100804B5F /* MLPickerView.h */,
+				7B4E4F61249F788100804B5F /* MLPickerView.m */,
+				7B4E4F63249F788100804B5F /* MLPickerView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B4E4F5B249F748100804B5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B26E6B32497C909002CDA15 /* UserModel.h */,
+				7B26E6B42497C909002CDA15 /* UserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B4E4F66249F78C200804B5F /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				7B4E4F67249F78D200804B5F /* TYAlertController */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		7B4E4F67249F78D200804B5F /* TYAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				7B4E4F68249F78D200804B5F /* TYAlertView.m */,
+				7B4E4F69249F78D200804B5F /* TYAlertDropDownAnimation.h */,
+				7B4E4F6A249F78D200804B5F /* UIView+TYAutoLayout.h */,
+				7B4E4F6B249F78D200804B5F /* TYShowAlertView.h */,
+				7B4E4F6C249F78D200804B5F /* UIView+TYAlertView.m */,
+				7B4E4F6D249F78D200804B5F /* TYAlertScaleFadeAnimation.m */,
+				7B4E4F6E249F78D200804B5F /* TYBaseAnimation.h */,
+				7B4E4F6F249F78D200804B5F /* TYAlertFadeAnimation.m */,
+				7B4E4F70249F78D200804B5F /* TYAlertController+TransitionAnimate.m */,
+				7B4E4F71249F78D200804B5F /* TYAlertController.h */,
+				7B4E4F72249F78D200804B5F /* UIView+TYAutoLayout.m */,
+				7B4E4F73249F78D200804B5F /* TYAlertDropDownAnimation.m */,
+				7B4E4F74249F78D200804B5F /* TYAlertView.h */,
+				7B4E4F75249F78D200804B5F /* UIView+TYAlertView.h */,
+				7B4E4F76249F78D200804B5F /* TYShowAlertView.m */,
+				7B4E4F77249F78D200804B5F /* TYBaseAnimation.m */,
+				7B4E4F78249F78D200804B5F /* TYAlertScaleFadeAnimation.h */,
+				7B4E4F79249F78D200804B5F /* TYAlertController.m */,
+				7B4E4F7A249F78D200804B5F /* TYAlertFadeAnimation.h */,
+			);
+			name = TYAlertController;
+			path = "../../../../../项目/正式版本/v1.6.5_ios/ios_Smart-Locator/SmartTrack/Vendor/TYAlertController";
+			sourceTree = "<group>";
+		};
 		AEA2E1372B41DB42BFD6A4D4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,8 +375,6 @@
 				D20096E72331FFAD00078E76 /* Success */,
 				D20096DC2331BF1600078E76 /* Registered */,
 				D240040A2330685F003FE529 /* LoginVC */,
-				7B26E6B32497C909002CDA15 /* UserModel.h */,
-				7B26E6B42497C909002CDA15 /* UserModel.m */,
 			);
 			path = LoginWithRegister;
 			sourceTree = "<group>";
@@ -374,9 +474,16 @@
 		D230B0C523335167004E6802 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				D230B0CE233351A8004E6802 /* Model */,
-				D230B0CD233351A2004E6802 /* View */,
-				D230B0CC23335199004E6802 /* Controller */,
+				D230B0D523335292004E6802 /* MineTableViewController.h */,
+				D230B0D623335292004E6802 /* MineTableViewController.m */,
+				7BEDE0EA249F54B200F90F35 /* AccountTableViewController.h */,
+				7BEDE0EB249F54B200F90F35 /* AccountTableViewController.m */,
+				7B9E455F24A0DE4300794384 /* PrivacyViewController.h */,
+				7B9E456024A0DE4300794384 /* PrivacyViewController.m */,
+				7B9E456524A0DF0C00794384 /* HelpViewController.h */,
+				7B9E456624A0DF0C00794384 /* HelpViewController.m */,
+				7B9E456224A0DE7600794384 /* QrCodeViewController.h */,
+				7B9E456324A0DE7600794384 /* QrCodeViewController.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -427,29 +534,6 @@
 			sourceTree = "<group>";
 		};
 		D230B0CB23335194004E6802 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D230B0CC23335199004E6802 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				D230B0D523335292004E6802 /* MineViewController.h */,
-				D230B0D623335292004E6802 /* MineViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		D230B0CD233351A2004E6802 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D230B0CE233351A8004E6802 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -566,6 +650,9 @@
 		D2F0A3EB232F361700DB4B99 /* HZ */ = {
 			isa = PBXGroup;
 			children = (
+				7B4E4F66249F78C200804B5F /* Vendor */,
+				7B4E4F5B249F748100804B5F /* Model */,
+				7B4E4F5A249F746D00804B5F /* View */,
 				D230B0C523335167004E6802 /* Mine */,
 				D230B0C42333514A004E6802 /* Advisory */,
 				D230B0C323335114004E6802 /* Market */,
@@ -578,6 +665,7 @@
 				D2F0A3EF232F361700DB4B99 /* ViewController.h */,
 				D2F0A3F0232F361700DB4B99 /* ViewController.m */,
 				D2F0A3F2232F361700DB4B99 /* Main.storyboard */,
+				7BEDE0E8249F4A4C00F90F35 /* Mine.storyboard */,
 				D2F0A3F5232F361700DB4B99 /* Assets.xcassets */,
 				D2F0A3F7232F361700DB4B99 /* LaunchScreen.storyboard */,
 				D2F0A3FA232F361700DB4B99 /* Info.plist */,
@@ -754,7 +842,9 @@
 			files = (
 				D2F0A3F9232F361700DB4B99 /* LaunchScreen.storyboard in Resources */,
 				D2F0A3F6232F361700DB4B99 /* Assets.xcassets in Resources */,
+				7B4E4F65249F788100804B5F /* MLPickerView.xib in Resources */,
 				D2F0A3F4232F361700DB4B99 /* Main.storyboard in Resources */,
+				7BEDE0E9249F4A4C00F90F35 /* Mine.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -853,12 +943,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B9E456424A0DE7600794384 /* QrCodeViewController.m in Sources */,
 				D240040D23306901003FE529 /* LoginViewController.m in Sources */,
 				D2F0A3F1232F361700DB4B99 /* ViewController.m in Sources */,
+				7B4E4F80249F78D200804B5F /* UIView+TYAutoLayout.m in Sources */,
 				D2BC6B6E2338B8700072343C /* PayWayViewController.m in Sources */,
 				D2BC6B762338BB280072343C /* PayMentModel.m in Sources */,
 				D2F1F5082333804B00F73C0F /* AddDeviceWithWlanPsdViewController.m in Sources */,
 				D2BC6B722338B89F0072343C /* PayWayTableViewCell.m in Sources */,
+				7B4E4F64249F788100804B5F /* MLPickerView.m in Sources */,
 				D230B0D1233351E5004E6802 /* MarketViewController.m in Sources */,
 				D230B0D423335248004E6802 /* AdvisoryViewController.m in Sources */,
 				7B26E6B52497C909002CDA15 /* UserModel.m in Sources */,
@@ -866,32 +959,44 @@
 				7B26E6AF2497B7DE002CDA15 /* MBProgressHUD+KR.m in Sources */,
 				D20096E62331DF2D00078E76 /* PsdSetViewController.m in Sources */,
 				D2142657232F94DC003CF673 /* NSArray+Log.m in Sources */,
+				7B4E4F7F249F78D200804B5F /* TYAlertController+TransitionAnimate.m in Sources */,
 				D2AF81EE2335B96F00A0FC0A /* GoodOrderViewController.m in Sources */,
 				D2F0A3FC232F361700DB4B99 /* main.m in Sources */,
+				7B4E4F7E249F78D200804B5F /* TYAlertFadeAnimation.m in Sources */,
+				7B4E4F7C249F78D200804B5F /* UIView+TYAlertView.m in Sources */,
 				D2142644232F86A4003CF673 /* QMUIConfigurationTemplate.m in Sources */,
 				D230B0BB2333134B004E6802 /* DeviceCell.m in Sources */,
 				D20096DF2331BFAF00078E76 /* RegisteredWithAreaAndNumVC.m in Sources */,
 				D20096F123321AD300078E76 /* QMUICommonViewController+LC.m in Sources */,
 				D22671642334C3B3006B11C5 /* MarketCellModel.m in Sources */,
+				7B4E4F84249F78D200804B5F /* TYAlertController.m in Sources */,
 				D2BC6B67233856AB0072343C /* FillInOrderViewController.m in Sources */,
 				D230B0C12333213B004E6802 /* DeviceViewController.m in Sources */,
+				7B4E4F81249F78D200804B5F /* TYAlertDropDownAnimation.m in Sources */,
 				D2142656232F94DC003CF673 /* SingleHelper.m in Sources */,
+				7B4E4F7B249F78D200804B5F /* TYAlertView.m in Sources */,
 				D2142655232F94DC003CF673 /* NSDictionary+Log.m in Sources */,
 				D2F1F5172334B00E00F73C0F /* LCMarketCollectionHeaderView.m in Sources */,
+				7B4E4F82249F78D200804B5F /* TYShowAlertView.m in Sources */,
 				7B26E6B22497C725002CDA15 /* UserInfo.m in Sources */,
 				D2F1F5142334AFA000F73C0F /* MarketCollectionViewCell.m in Sources */,
-				D230B0D723335292004E6802 /* MineViewController.m in Sources */,
+				D230B0D723335292004E6802 /* MineTableViewController.m in Sources */,
 				7BEDE0E4249F3BEA00F90F35 /* ForgetPsd2ViewController.m in Sources */,
+				7B9E456724A0DF0C00794384 /* HelpViewController.m in Sources */,
 				D230B0DB23336283004E6802 /* AddDeviceViewController.m in Sources */,
 				D20096E32331D7C400078E76 /* VerfiViewController.m in Sources */,
 				D230B0BE2333162F004E6802 /* DeviceCellModel.m in Sources */,
 				7BEDE0E7249F3EEC00F90F35 /* ForgetPsd3ViewController.m in Sources */,
+				7BEDE0EC249F54B200F90F35 /* AccountTableViewController.m in Sources */,
+				7B4E4F7D249F78D200804B5F /* TYAlertScaleFadeAnimation.m in Sources */,
 				D20096EE2332119B00078E76 /* ForgetPsdViewController.m in Sources */,
 				D2F1F511233470DF00F73C0F /* DeviceDetailViewController.m in Sources */,
 				D20096EA2331FFBC00078E76 /* SuccessViewController.m in Sources */,
 				7B26E6A92497B156002CDA15 /* NSObject+NetWorking.m in Sources */,
 				D2F1F50523337FFC00F73C0F /* AddDeviceSuccessController.m in Sources */,
+				7B4E4F83249F78D200804B5F /* TYBaseAnimation.m in Sources */,
 				D230B0DE23336780004E6802 /* QMUICommonTableViewController+LC.m in Sources */,
+				7B9E456124A0DE4300794384 /* PrivacyViewController.m in Sources */,
 				D2F0A3EE232F361700DB4B99 /* AppDelegate.m in Sources */,
 				D2F1F50D2334707400F73C0F /* ProgressView.m in Sources */,
 			);

@@ -1,18 +1,18 @@
 //
-//  MineViewController.m
+//  HelpViewController.m
 //  HZ
 //
-//  Created by 李灿 on 2019/9/19.
-//  Copyright © 2019 李灿. All rights reserved.
+//  Created by million on 2020/6/22.
+//  Copyright © 2020 李灿. All rights reserved.
 //
 
-#import "MineViewController.h"
+#import "HelpViewController.h"
 
-@interface MineViewController ()
+@interface HelpViewController ()
 
 @end
 
-@implementation MineViewController
+@implementation HelpViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -6,11 +6,9 @@
 //  Copyright © 2019 李灿. All rights reserved.
 //
 
-#import "QMUICommonTableViewController.h"
-
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MineViewController : QMUICommonTableViewController
+@interface MineTableViewController : UITableViewController
 
 @end
 
