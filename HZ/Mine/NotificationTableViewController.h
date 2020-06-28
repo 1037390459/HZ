@@ -1,8 +1,8 @@
 //
-//  HelpViewController.h
+//  NotificationTableViewController.h
 //  HZ
 //
-//  Created by million on 2020/6/22.
+//  Created by million on 2020/6/23.
 //  Copyright © 2020 李灿. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HelpViewController : UIViewController
+@interface NotificationTableViewController : UITableViewController
 
 @end
 

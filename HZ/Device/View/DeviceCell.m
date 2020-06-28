@@ -51,7 +51,7 @@
  ic_zhinengsaodijia 离线状态图标
  @param model 设备模型
  */
-- (void)setSubviewsWithModel:(DeviceCellModel *)model{
+- (void)setSubviewsWithModel:(DeviceModel *)model{
     int i = arc4random()%2;
     if (i == 1) {
         _deviceImgView.image = UIImageMake(@"ic_zhinengsaodiji");

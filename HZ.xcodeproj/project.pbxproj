@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D258CA1A9F56C018F5C06A5 /* libPods-HZTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E53AAED78D8E85EB27BAEB /* libPods-HZTests.a */; };
+		7B0AF2B024A8F1C2000CE992 /* WenTiFk2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0AF2AF24A8F1C2000CE992 /* WenTiFk2ViewController.m */; };
 		7B26E6A92497B156002CDA15 /* NSObject+NetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B26E6A72497B156002CDA15 /* NSObject+NetWorking.m */; };
 		7B26E6AF2497B7DE002CDA15 /* MBProgressHUD+KR.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B26E6AE2497B7DE002CDA15 /* MBProgressHUD+KR.m */; };
 		7B26E6B22497C725002CDA15 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B26E6B12497C725002CDA15 /* UserInfo.m */; };
@@ -26,7 +27,23 @@
 		7B4E4F84249F78D200804B5F /* TYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4E4F79249F78D200804B5F /* TYAlertController.m */; };
 		7B9E456124A0DE4300794384 /* PrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9E456024A0DE4300794384 /* PrivacyViewController.m */; };
 		7B9E456424A0DE7600794384 /* QrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9E456324A0DE7600794384 /* QrCodeViewController.m */; };
-		7B9E456724A0DF0C00794384 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9E456624A0DF0C00794384 /* HelpViewController.m */; };
+		7B9E456724A0DF0C00794384 /* HelpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9E456624A0DF0C00794384 /* HelpTableViewController.m */; };
+		7BC75A1724A23CD700B7160F /* NotificationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC75A1624A23CD700B7160F /* NotificationTableViewController.m */; };
+		7BC75A1B24A23D1E00B7160F /* NotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC75A1924A23D1E00B7160F /* NotificationCell.m */; };
+		7BC75A1C24A23D1E00B7160F /* NotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BC75A1A24A23D1E00B7160F /* NotificationCell.xib */; };
+		7BC75A1F24A2480500B7160F /* ShouYiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC75A1E24A2480500B7160F /* ShouYiViewController.m */; };
+		7BC75A2224A2511D00B7160F /* JiFengTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC75A2124A2511D00B7160F /* JiFengTableViewController.m */; };
+		7BC75A2524A251CE00B7160F /* WenTiFkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC75A2424A251CE00B7160F /* WenTiFkTableViewController.m */; };
+		7BC75A2824A2535500B7160F /* FeiYongMxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC75A2724A2535500B7160F /* FeiYongMxTableViewController.m */; };
+		7BC75A2B24A5EC9100B7160F /* IntegralModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC75A2A24A5EC9100B7160F /* IntegralModel.m */; };
+		7BC75A2E24A5F0DB00B7160F /* AddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC75A2D24A5F0DB00B7160F /* AddressModel.m */; };
+		7BC75A3524A5F22100B7160F /* GoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC75A3424A5F22100B7160F /* GoodsModel.m */; };
+		7BC75A3824A5F27B00B7160F /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC75A3724A5F27B00B7160F /* CategoryModel.m */; };
+		7BC75A3B24A5F30500B7160F /* OrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC75A3A24A5F30500B7160F /* OrderModel.m */; };
+		7BC75A3E24A5F5BA00B7160F /* CouponModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC75A3D24A5F5BA00B7160F /* CouponModel.m */; };
+		7BC75A4424A753CB00B7160F /* ShiYongScTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC75A4324A753CB00B7160F /* ShiYongScTableViewController.m */; };
+		7BC75A4824A8EC0200B7160F /* WenTiFkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC75A4624A8EC0200B7160F /* WenTiFkCell.m */; };
+		7BC75A4924A8EC0200B7160F /* WenTiFkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BC75A4724A8EC0200B7160F /* WenTiFkCell.xib */; };
 		7BEDE0E4249F3BEA00F90F35 /* ForgetPsd2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDE0E3249F3BEA00F90F35 /* ForgetPsd2ViewController.m */; };
 		7BEDE0E7249F3EEC00F90F35 /* ForgetPsd3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDE0E6249F3EEC00F90F35 /* ForgetPsd3ViewController.m */; };
 		7BEDE0E9249F4A4C00F90F35 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BEDE0E8249F4A4C00F90F35 /* Mine.storyboard */; };
@@ -45,7 +62,7 @@
 		D2142657232F94DC003CF673 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D2142654232F94DC003CF673 /* NSArray+Log.m */; };
 		D22671642334C3B3006B11C5 /* MarketCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D22671632334C3B3006B11C5 /* MarketCellModel.m */; };
 		D230B0BB2333134B004E6802 /* DeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0BA2333134B004E6802 /* DeviceCell.m */; };
-		D230B0BE2333162F004E6802 /* DeviceCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0BD2333162F004E6802 /* DeviceCellModel.m */; };
+		D230B0BE2333162F004E6802 /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0BD2333162F004E6802 /* DeviceModel.m */; };
 		D230B0C12333213B004E6802 /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0C02333213B004E6802 /* DeviceViewController.m */; };
 		D230B0D1233351E5004E6802 /* MarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0D0233351E5004E6802 /* MarketViewController.m */; };
 		D230B0D423335248004E6802 /* AdvisoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0D323335248004E6802 /* AdvisoryViewController.m */; };
@@ -97,6 +114,8 @@
 		21014ECB963FEC10A73AD0ED /* Pods-HZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZ/Pods-HZ.debug.xcconfig"; sourceTree = "<group>"; };
 		616FD891487476901A22820D /* libPods-HZ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E53AAED78D8E85EB27BAEB /* libPods-HZTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B0AF2AE24A8F1C2000CE992 /* WenTiFk2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WenTiFk2ViewController.h; sourceTree = "<group>"; };
+		7B0AF2AF24A8F1C2000CE992 /* WenTiFk2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WenTiFk2ViewController.m; sourceTree = "<group>"; };
 		7B26E6A72497B156002CDA15 /* NSObject+NetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NetWorking.m"; sourceTree = "<group>"; };
 		7B26E6A82497B156002CDA15 /* NSObject+NetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NetWorking.h"; sourceTree = "<group>"; };
 		7B26E6AD2497B7DE002CDA15 /* MBProgressHUD+KR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+KR.h"; sourceTree = "<group>"; };
@@ -131,8 +150,38 @@
 		7B9E456024A0DE4300794384 /* PrivacyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivacyViewController.m; sourceTree = "<group>"; };
 		7B9E456224A0DE7600794384 /* QrCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QrCodeViewController.h; sourceTree = "<group>"; };
 		7B9E456324A0DE7600794384 /* QrCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QrCodeViewController.m; sourceTree = "<group>"; };
-		7B9E456524A0DF0C00794384 /* HelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
-		7B9E456624A0DF0C00794384 /* HelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		7B9E456524A0DF0C00794384 /* HelpTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpTableViewController.h; sourceTree = "<group>"; };
+		7B9E456624A0DF0C00794384 /* HelpTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelpTableViewController.m; sourceTree = "<group>"; };
+		7BC75A1524A23CD700B7160F /* NotificationTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationTableViewController.h; sourceTree = "<group>"; };
+		7BC75A1624A23CD700B7160F /* NotificationTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationTableViewController.m; sourceTree = "<group>"; };
+		7BC75A1824A23D1E00B7160F /* NotificationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationCell.h; sourceTree = "<group>"; };
+		7BC75A1924A23D1E00B7160F /* NotificationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationCell.m; sourceTree = "<group>"; };
+		7BC75A1A24A23D1E00B7160F /* NotificationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationCell.xib; sourceTree = "<group>"; };
+		7BC75A1D24A2480500B7160F /* ShouYiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShouYiViewController.h; sourceTree = "<group>"; };
+		7BC75A1E24A2480500B7160F /* ShouYiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShouYiViewController.m; sourceTree = "<group>"; };
+		7BC75A2024A2511D00B7160F /* JiFengTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiFengTableViewController.h; sourceTree = "<group>"; };
+		7BC75A2124A2511D00B7160F /* JiFengTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiFengTableViewController.m; sourceTree = "<group>"; };
+		7BC75A2324A251CE00B7160F /* WenTiFkTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WenTiFkTableViewController.h; sourceTree = "<group>"; };
+		7BC75A2424A251CE00B7160F /* WenTiFkTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WenTiFkTableViewController.m; sourceTree = "<group>"; };
+		7BC75A2624A2535500B7160F /* FeiYongMxTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeiYongMxTableViewController.h; sourceTree = "<group>"; };
+		7BC75A2724A2535500B7160F /* FeiYongMxTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeiYongMxTableViewController.m; sourceTree = "<group>"; };
+		7BC75A2924A5EC9100B7160F /* IntegralModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegralModel.h; sourceTree = "<group>"; };
+		7BC75A2A24A5EC9100B7160F /* IntegralModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntegralModel.m; sourceTree = "<group>"; };
+		7BC75A2C24A5F0DB00B7160F /* AddressModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressModel.h; sourceTree = "<group>"; };
+		7BC75A2D24A5F0DB00B7160F /* AddressModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressModel.m; sourceTree = "<group>"; };
+		7BC75A3324A5F22100B7160F /* GoodsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodsModel.h; sourceTree = "<group>"; };
+		7BC75A3424A5F22100B7160F /* GoodsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodsModel.m; sourceTree = "<group>"; };
+		7BC75A3624A5F27B00B7160F /* CategoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryModel.h; sourceTree = "<group>"; };
+		7BC75A3724A5F27B00B7160F /* CategoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryModel.m; sourceTree = "<group>"; };
+		7BC75A3924A5F30500B7160F /* OrderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderModel.h; sourceTree = "<group>"; };
+		7BC75A3A24A5F30500B7160F /* OrderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderModel.m; sourceTree = "<group>"; };
+		7BC75A3C24A5F5BA00B7160F /* CouponModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CouponModel.h; sourceTree = "<group>"; };
+		7BC75A3D24A5F5BA00B7160F /* CouponModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CouponModel.m; sourceTree = "<group>"; };
+		7BC75A4224A753CB00B7160F /* ShiYongScTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiYongScTableViewController.h; sourceTree = "<group>"; };
+		7BC75A4324A753CB00B7160F /* ShiYongScTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiYongScTableViewController.m; sourceTree = "<group>"; };
+		7BC75A4524A8EC0200B7160F /* WenTiFkCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WenTiFkCell.h; sourceTree = "<group>"; };
+		7BC75A4624A8EC0200B7160F /* WenTiFkCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WenTiFkCell.m; sourceTree = "<group>"; };
+		7BC75A4724A8EC0200B7160F /* WenTiFkCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WenTiFkCell.xib; sourceTree = "<group>"; };
 		7BEDE0E2249F3BEA00F90F35 /* ForgetPsd2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPsd2ViewController.h; sourceTree = "<group>"; };
 		7BEDE0E3249F3BEA00F90F35 /* ForgetPsd2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetPsd2ViewController.m; sourceTree = "<group>"; };
 		7BEDE0E5249F3EEC00F90F35 /* ForgetPsd3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetPsd3ViewController.h; sourceTree = "<group>"; };
@@ -167,8 +216,8 @@
 		D22671632334C3B3006B11C5 /* MarketCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketCellModel.m; sourceTree = "<group>"; };
 		D230B0B92333134B004E6802 /* DeviceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceCell.h; sourceTree = "<group>"; };
 		D230B0BA2333134B004E6802 /* DeviceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceCell.m; sourceTree = "<group>"; };
-		D230B0BC2333162F004E6802 /* DeviceCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceCellModel.h; sourceTree = "<group>"; };
-		D230B0BD2333162F004E6802 /* DeviceCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceCellModel.m; sourceTree = "<group>"; };
+		D230B0BC2333162F004E6802 /* DeviceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceModel.h; sourceTree = "<group>"; };
+		D230B0BD2333162F004E6802 /* DeviceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceModel.m; sourceTree = "<group>"; };
 		D230B0BF2333213B004E6802 /* DeviceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
 		D230B0C02333213B004E6802 /* DeviceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
 		D230B0CF233351E5004E6802 /* MarketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketViewController.h; sourceTree = "<group>"; };
@@ -272,6 +321,12 @@
 				7B4E4F62249F788100804B5F /* MLPickerView.h */,
 				7B4E4F61249F788100804B5F /* MLPickerView.m */,
 				7B4E4F63249F788100804B5F /* MLPickerView.xib */,
+				7BC75A1824A23D1E00B7160F /* NotificationCell.h */,
+				7BC75A1924A23D1E00B7160F /* NotificationCell.m */,
+				7BC75A1A24A23D1E00B7160F /* NotificationCell.xib */,
+				7BC75A4524A8EC0200B7160F /* WenTiFkCell.h */,
+				7BC75A4624A8EC0200B7160F /* WenTiFkCell.m */,
+				7BC75A4724A8EC0200B7160F /* WenTiFkCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -279,8 +334,10 @@
 		7B4E4F5B249F748100804B5F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7B26E6B32497C909002CDA15 /* UserModel.h */,
-				7B26E6B42497C909002CDA15 /* UserModel.m */,
+				7BC75A3224A5F20100B7160F /* order */,
+				7BC75A3124A5F1FB00B7160F /* sn */,
+				7BC75A3024A5F1E700B7160F /* goods */,
+				7BC75A2F24A5F1CD00B7160F /* user */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -318,6 +375,50 @@
 			);
 			name = TYAlertController;
 			path = "../../../../../项目/正式版本/v1.6.5_ios/ios_Smart-Locator/SmartTrack/Vendor/TYAlertController";
+			sourceTree = "<group>";
+		};
+		7BC75A2F24A5F1CD00B7160F /* user */ = {
+			isa = PBXGroup;
+			children = (
+				7B26E6B32497C909002CDA15 /* UserModel.h */,
+				7B26E6B42497C909002CDA15 /* UserModel.m */,
+				7BC75A2924A5EC9100B7160F /* IntegralModel.h */,
+				7BC75A2A24A5EC9100B7160F /* IntegralModel.m */,
+				7BC75A2C24A5F0DB00B7160F /* AddressModel.h */,
+				7BC75A2D24A5F0DB00B7160F /* AddressModel.m */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		7BC75A3024A5F1E700B7160F /* goods */ = {
+			isa = PBXGroup;
+			children = (
+				7BC75A3324A5F22100B7160F /* GoodsModel.h */,
+				7BC75A3424A5F22100B7160F /* GoodsModel.m */,
+				7BC75A3624A5F27B00B7160F /* CategoryModel.h */,
+				7BC75A3724A5F27B00B7160F /* CategoryModel.m */,
+				7BC75A3C24A5F5BA00B7160F /* CouponModel.h */,
+				7BC75A3D24A5F5BA00B7160F /* CouponModel.m */,
+				7BC75A3924A5F30500B7160F /* OrderModel.h */,
+				7BC75A3A24A5F30500B7160F /* OrderModel.m */,
+			);
+			path = goods;
+			sourceTree = "<group>";
+		};
+		7BC75A3124A5F1FB00B7160F /* sn */ = {
+			isa = PBXGroup;
+			children = (
+				D230B0BC2333162F004E6802 /* DeviceModel.h */,
+				D230B0BD2333162F004E6802 /* DeviceModel.m */,
+			);
+			path = sn;
+			sourceTree = "<group>";
+		};
+		7BC75A3224A5F20100B7160F /* order */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = order;
 			sourceTree = "<group>";
 		};
 		AEA2E1372B41DB42BFD6A4D4 /* Pods */ = {
@@ -385,7 +486,6 @@
 				D2F1F509233461F000F73C0F /* DeviceDetail */,
 				D2F1F50223337FDA00F73C0F /* AddSuccess */,
 				D230B0D823336266004E6802 /* AddDevice */,
-				D20096F623330B8F00078E76 /* Model */,
 				D20096F523330B8900078E76 /* View */,
 				D20096F423330B8200078E76 /* Controller */,
 			);
@@ -408,15 +508,6 @@
 				D230B0BA2333134B004E6802 /* DeviceCell.m */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		D20096F623330B8F00078E76 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D230B0BC2333162F004E6802 /* DeviceCellModel.h */,
-				D230B0BD2333162F004E6802 /* DeviceCellModel.m */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		D2142641232F86A4003CF673 /* QMUIConfigurationTemplate */ = {
@@ -480,10 +571,24 @@
 				7BEDE0EB249F54B200F90F35 /* AccountTableViewController.m */,
 				7B9E455F24A0DE4300794384 /* PrivacyViewController.h */,
 				7B9E456024A0DE4300794384 /* PrivacyViewController.m */,
-				7B9E456524A0DF0C00794384 /* HelpViewController.h */,
-				7B9E456624A0DF0C00794384 /* HelpViewController.m */,
+				7B9E456524A0DF0C00794384 /* HelpTableViewController.h */,
+				7B9E456624A0DF0C00794384 /* HelpTableViewController.m */,
 				7B9E456224A0DE7600794384 /* QrCodeViewController.h */,
 				7B9E456324A0DE7600794384 /* QrCodeViewController.m */,
+				7BC75A4224A753CB00B7160F /* ShiYongScTableViewController.h */,
+				7BC75A4324A753CB00B7160F /* ShiYongScTableViewController.m */,
+				7BC75A1524A23CD700B7160F /* NotificationTableViewController.h */,
+				7BC75A1624A23CD700B7160F /* NotificationTableViewController.m */,
+				7BC75A1D24A2480500B7160F /* ShouYiViewController.h */,
+				7BC75A1E24A2480500B7160F /* ShouYiViewController.m */,
+				7BC75A2024A2511D00B7160F /* JiFengTableViewController.h */,
+				7BC75A2124A2511D00B7160F /* JiFengTableViewController.m */,
+				7BC75A2324A251CE00B7160F /* WenTiFkTableViewController.h */,
+				7BC75A2424A251CE00B7160F /* WenTiFkTableViewController.m */,
+				7B0AF2AE24A8F1C2000CE992 /* WenTiFk2ViewController.h */,
+				7B0AF2AF24A8F1C2000CE992 /* WenTiFk2ViewController.m */,
+				7BC75A2624A2535500B7160F /* FeiYongMxTableViewController.h */,
+				7BC75A2724A2535500B7160F /* FeiYongMxTableViewController.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -842,6 +947,8 @@
 			files = (
 				D2F0A3F9232F361700DB4B99 /* LaunchScreen.storyboard in Resources */,
 				D2F0A3F6232F361700DB4B99 /* Assets.xcassets in Resources */,
+				7BC75A4924A8EC0200B7160F /* WenTiFkCell.xib in Resources */,
+				7BC75A1C24A23D1E00B7160F /* NotificationCell.xib in Resources */,
 				7B4E4F65249F788100804B5F /* MLPickerView.xib in Resources */,
 				D2F0A3F4232F361700DB4B99 /* Main.storyboard in Resources */,
 				7BEDE0E9249F4A4C00F90F35 /* Mine.storyboard in Resources */,
@@ -944,8 +1051,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B9E456424A0DE7600794384 /* QrCodeViewController.m in Sources */,
+				7BC75A3824A5F27B00B7160F /* CategoryModel.m in Sources */,
 				D240040D23306901003FE529 /* LoginViewController.m in Sources */,
+				7BC75A1B24A23D1E00B7160F /* NotificationCell.m in Sources */,
+				7BC75A4424A753CB00B7160F /* ShiYongScTableViewController.m in Sources */,
 				D2F0A3F1232F361700DB4B99 /* ViewController.m in Sources */,
+				7BC75A3E24A5F5BA00B7160F /* CouponModel.m in Sources */,
 				7B4E4F80249F78D200804B5F /* UIView+TYAutoLayout.m in Sources */,
 				D2BC6B6E2338B8700072343C /* PayWayViewController.m in Sources */,
 				D2BC6B762338BB280072343C /* PayMentModel.m in Sources */,
@@ -954,7 +1065,10 @@
 				7B4E4F64249F788100804B5F /* MLPickerView.m in Sources */,
 				D230B0D1233351E5004E6802 /* MarketViewController.m in Sources */,
 				D230B0D423335248004E6802 /* AdvisoryViewController.m in Sources */,
+				7BC75A2224A2511D00B7160F /* JiFengTableViewController.m in Sources */,
+				7BC75A2524A251CE00B7160F /* WenTiFkTableViewController.m in Sources */,
 				7B26E6B52497C909002CDA15 /* UserModel.m in Sources */,
+				7BC75A4824A8EC0200B7160F /* WenTiFkCell.m in Sources */,
 				D240041523308C6D003FE529 /* AreaSelectViewController.m in Sources */,
 				7B26E6AF2497B7DE002CDA15 /* MBProgressHUD+KR.m in Sources */,
 				D20096E62331DF2D00078E76 /* PsdSetViewController.m in Sources */,
@@ -964,6 +1078,7 @@
 				D2F0A3FC232F361700DB4B99 /* main.m in Sources */,
 				7B4E4F7E249F78D200804B5F /* TYAlertFadeAnimation.m in Sources */,
 				7B4E4F7C249F78D200804B5F /* UIView+TYAlertView.m in Sources */,
+				7BC75A1724A23CD700B7160F /* NotificationTableViewController.m in Sources */,
 				D2142644232F86A4003CF673 /* QMUIConfigurationTemplate.m in Sources */,
 				D230B0BB2333134B004E6802 /* DeviceCell.m in Sources */,
 				D20096DF2331BFAF00078E76 /* RegisteredWithAreaAndNumVC.m in Sources */,
@@ -971,8 +1086,10 @@
 				D22671642334C3B3006B11C5 /* MarketCellModel.m in Sources */,
 				7B4E4F84249F78D200804B5F /* TYAlertController.m in Sources */,
 				D2BC6B67233856AB0072343C /* FillInOrderViewController.m in Sources */,
+				7BC75A2E24A5F0DB00B7160F /* AddressModel.m in Sources */,
 				D230B0C12333213B004E6802 /* DeviceViewController.m in Sources */,
 				7B4E4F81249F78D200804B5F /* TYAlertDropDownAnimation.m in Sources */,
+				7BC75A1F24A2480500B7160F /* ShouYiViewController.m in Sources */,
 				D2142656232F94DC003CF673 /* SingleHelper.m in Sources */,
 				7B4E4F7B249F78D200804B5F /* TYAlertView.m in Sources */,
 				D2142655232F94DC003CF673 /* NSDictionary+Log.m in Sources */,
@@ -980,25 +1097,30 @@
 				7B4E4F82249F78D200804B5F /* TYShowAlertView.m in Sources */,
 				7B26E6B22497C725002CDA15 /* UserInfo.m in Sources */,
 				D2F1F5142334AFA000F73C0F /* MarketCollectionViewCell.m in Sources */,
+				7BC75A2824A2535500B7160F /* FeiYongMxTableViewController.m in Sources */,
 				D230B0D723335292004E6802 /* MineTableViewController.m in Sources */,
 				7BEDE0E4249F3BEA00F90F35 /* ForgetPsd2ViewController.m in Sources */,
-				7B9E456724A0DF0C00794384 /* HelpViewController.m in Sources */,
+				7B9E456724A0DF0C00794384 /* HelpTableViewController.m in Sources */,
+				7BC75A2B24A5EC9100B7160F /* IntegralModel.m in Sources */,
 				D230B0DB23336283004E6802 /* AddDeviceViewController.m in Sources */,
 				D20096E32331D7C400078E76 /* VerfiViewController.m in Sources */,
-				D230B0BE2333162F004E6802 /* DeviceCellModel.m in Sources */,
+				D230B0BE2333162F004E6802 /* DeviceModel.m in Sources */,
 				7BEDE0E7249F3EEC00F90F35 /* ForgetPsd3ViewController.m in Sources */,
 				7BEDE0EC249F54B200F90F35 /* AccountTableViewController.m in Sources */,
 				7B4E4F7D249F78D200804B5F /* TYAlertScaleFadeAnimation.m in Sources */,
 				D20096EE2332119B00078E76 /* ForgetPsdViewController.m in Sources */,
 				D2F1F511233470DF00F73C0F /* DeviceDetailViewController.m in Sources */,
+				7BC75A3B24A5F30500B7160F /* OrderModel.m in Sources */,
 				D20096EA2331FFBC00078E76 /* SuccessViewController.m in Sources */,
 				7B26E6A92497B156002CDA15 /* NSObject+NetWorking.m in Sources */,
+				7B0AF2B024A8F1C2000CE992 /* WenTiFk2ViewController.m in Sources */,
 				D2F1F50523337FFC00F73C0F /* AddDeviceSuccessController.m in Sources */,
 				7B4E4F83249F78D200804B5F /* TYBaseAnimation.m in Sources */,
 				D230B0DE23336780004E6802 /* QMUICommonTableViewController+LC.m in Sources */,
 				7B9E456124A0DE4300794384 /* PrivacyViewController.m in Sources */,
 				D2F0A3EE232F361700DB4B99 /* AppDelegate.m in Sources */,
 				D2F1F50D2334707400F73C0F /* ProgressView.m in Sources */,
+				7BC75A3524A5F22100B7160F /* GoodsModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1170,8 +1292,9 @@
 			baseConfigurationReference = 21014ECB963FEC10A73AD0ED /* Pods-HZ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z65HA69V8L;
+				DEVELOPMENT_TEAM = DAQ2FGFHVS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HZ/PrefixHeader.pch";
 				INFOPLIST_FILE = HZ/Info.plist;
@@ -1180,8 +1303,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hz.lc.HZ;
+				PRODUCT_BUNDLE_IDENTIFIER = com.million.latticecabinet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1191,8 +1315,9 @@
 			baseConfigurationReference = E5B3D6FAF3EA2A095D854642 /* Pods-HZ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z65HA69V8L;
+				DEVELOPMENT_TEAM = DAQ2FGFHVS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HZ/PrefixHeader.pch";
 				INFOPLIST_FILE = HZ/Info.plist;
@@ -1201,8 +1326,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hz.lc.HZ;
+				PRODUCT_BUNDLE_IDENTIFIER = com.million.latticecabinet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

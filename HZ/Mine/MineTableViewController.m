@@ -7,6 +7,7 @@
 //
 
 #import "MineTableViewController.h"
+#import "NotificationTableViewController.h"
 
 @interface MineTableViewController ()
 
@@ -23,6 +24,7 @@
 
 - (void)configNavigationItem{
     self.navigationItem.title = @"个人中心";
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[[UIImage imageNamed:@"ic_xinxic"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(rightItemClicked:)];
 }
 
 - (void)setBackgroundImage {
@@ -31,11 +33,15 @@
     self.tableView.backgroundView = bgImgv;
 }
 
+- (void)rightItemClicked:(id)sender {
+    [self performSegueWithIdentifier:NSStringFromClass([NotificationTableViewController class]) sender:nil];
+}
+
 - (void)initTable {
     self.tableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
 }
 
-//#pragma mark tableview delegate
+#pragma mark tableview delegate
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     return 14;
 }

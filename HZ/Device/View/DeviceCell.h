@@ -7,7 +7,7 @@
 //
 
 #import "QMUITableViewCell.h"
-#import "DeviceCellModel.h"
+#import "DeviceModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DeviceCell : QMUITableViewCell
@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @param model 设备模型
  */
-- (void)setSubviewsWithModel:(DeviceCellModel *)model;
+- (void)setSubviewsWithModel:(DeviceModel *)model;
 
 @end
 

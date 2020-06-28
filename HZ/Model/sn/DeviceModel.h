@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DeviceCellModel : NSObject
+@interface DeviceModel : NSObject
 
 @property (nonatomic, strong) NSString * addTime;
 @property (nonatomic, assign) NSInteger idField;

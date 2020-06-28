@@ -6,9 +6,9 @@
 //  Copyright © 2019 李灿. All rights reserved.
 //
 
-#import "DeviceCellModel.h"
+#import "DeviceModel.h"
 
-@implementation DeviceCellModel
+@implementation DeviceModel
 + (NSDictionary *)replacedKeyFromPropertyName {
    return @{@"idField":@"id"};
 }

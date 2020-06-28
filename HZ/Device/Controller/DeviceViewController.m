@@ -8,18 +8,18 @@
 
 #import "DeviceViewController.h"
 #import "DeviceCell.h"
-#import "DeviceCellModel.h"
+#import "DeviceModel.h"
 #import "AddDeviceViewController.h"
 #import "DeviceDetailViewController.h"
 @interface DeviceViewController ()
 // 设备模型数组
-@property (nonatomic, strong) NSMutableArray<DeviceCellModel *> * dataArr;
+@property (nonatomic, strong) NSMutableArray<DeviceModel *> * dataArr;
 
 @end
 
 @implementation DeviceViewController
 
-- (NSMutableArray<DeviceCellModel *> *)dataArr{
+- (NSMutableArray<DeviceModel *> *)dataArr{
     if (!_dataArr) {
         _dataArr = [NSMutableArray array];
     }
@@ -57,7 +57,7 @@
                   [MBProgressHUD showWarning:error.localizedDescription toView:self.view];
                   return;
               }
-              NSArray<DeviceCellModel *> *devices = [DeviceCellModel mj_objectArrayWithKeyValuesArray:responseObj];
+              NSArray<DeviceModel *> *devices = [DeviceModel mj_objectArrayWithKeyValuesArray:responseObj];
               [self.dataArr addObjectsFromArray:devices];
               [self.tableView reloadData];
           }];
