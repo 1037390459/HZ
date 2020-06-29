@@ -8,6 +8,25 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--我的订单-->
+        <scene sceneID="Xf5-Bv-0qW">
+            <objects>
+                <tableViewController title="我的订单" id="gge-B7-DpA" customClass="OrderTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xbW-pV-IZW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <connections>
+                            <outlet property="dataSource" destination="gge-B7-DpA" id="h31-k0-k6c"/>
+                            <outlet property="delegate" destination="gge-B7-DpA" id="1lR-kr-8J1"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="dxm-vd-aXh"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4sH-G5-GhC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="-2656.4732142857142"/>
+        </scene>
         <!--消息中心-->
         <scene sceneID="hql-GT-V3b">
             <objects>
@@ -46,10 +65,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_shouyi" translatesAutoresizingMaskIntoConstraints="NO" id="iix-ii-xAP">
-                                <rect key="frame" x="103" y="64" width="208.50000000000006" height="159"/>
+                                <rect key="frame" x="-1.5" y="64" width="417" height="318"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="好像还没有收益哦~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aQ-xD-BY5">
-                                <rect key="frame" x="103" y="295" width="208.5" height="19.5"/>
+                                <rect key="frame" x="-1.5" y="454" width="417" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -754,69 +773,85 @@
                                                     <rect key="frame" x="10" y="0.0" width="394" height="122"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的订单" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yx-XT-bzT">
-                                                            <rect key="frame" x="20" y="10" width="53.5" height="36.5"/>
+                                                            <rect key="frame" x="20" y="10" width="53.5" height="12"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="UxD-i4-0I4">
-                                                            <rect key="frame" x="20" y="61.5" width="354" height="45.5"/>
+                                                            <rect key="frame" x="20" y="37" width="354" height="70"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qqs-EN-2AH">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="40" height="45.5"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="56" height="70"/>
                                                                     <subviews>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="ic_daizhifu" translatesAutoresizingMaskIntoConstraints="NO" id="GkR-8d-F0l">
-                                                                            <rect key="frame" x="6" y="0.0" width="28" height="24.5"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="56" height="49"/>
+                                                                            <gestureRecognizers/>
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="待支付" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eb3-47-nNl">
-                                                                            <rect key="frame" x="0.0" y="29.5" width="40" height="16"/>
+                                                                            <rect key="frame" x="8" y="54" width="40" height="16"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
+                                                                    <connections>
+                                                                        <outletCollection property="gestureRecognizers" destination="ekn-cj-I11" appends="YES" id="1PS-3G-Z70"/>
+                                                                    </connections>
                                                                 </stackView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="HG0-BZ-a6Q">
-                                                                    <rect key="frame" x="100" y="0.0" width="40" height="45.5"/>
+                                                                    <rect key="frame" x="97.5" y="0.0" width="56" height="70"/>
                                                                     <subviews>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_daipeisong" translatesAutoresizingMaskIntoConstraints="NO" id="RUT-ho-Ss9">
-                                                                            <rect key="frame" x="6" y="0.0" width="28" height="23.5"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="56" height="47"/>
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="待配送" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avv-2o-ee0">
-                                                                            <rect key="frame" x="0.0" y="28.5" width="40" height="17"/>
+                                                                            <rect key="frame" x="8" y="52" width="40" height="18"/>
+                                                                            <gestureRecognizers/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
+                                                                    <connections>
+                                                                        <outletCollection property="gestureRecognizers" destination="yMv-To-HYP" appends="YES" id="B37-40-31D"/>
+                                                                    </connections>
                                                                 </stackView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Lyf-TC-z61">
-                                                                    <rect key="frame" x="200.5" y="0.0" width="40" height="45.5"/>
+                                                                    <rect key="frame" x="194.5" y="0.0" width="56" height="70"/>
                                                                     <subviews>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_daipingjia" translatesAutoresizingMaskIntoConstraints="NO" id="K5Y-z8-kRF">
-                                                                            <rect key="frame" x="6" y="0.0" width="28" height="24.500000000000007"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="56" height="49"/>
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="待评价" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XE7-Ir-ILa">
-                                                                            <rect key="frame" x="0.0" y="29.5" width="40" height="16"/>
+                                                                            <rect key="frame" x="8" y="54" width="40" height="16"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
+                                                                    <gestureRecognizers/>
+                                                                    <connections>
+                                                                        <outletCollection property="gestureRecognizers" destination="iEc-MV-HVk" appends="YES" id="q6Z-Ag-S6k"/>
+                                                                    </connections>
                                                                 </stackView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="38k-g9-1Pu">
-                                                                    <rect key="frame" x="300.5" y="0.0" width="53.5" height="45.5"/>
+                                                                    <rect key="frame" x="292" y="0.0" width="62" height="70"/>
                                                                     <subviews>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_jiaoyichenggong" translatesAutoresizingMaskIntoConstraints="NO" id="ybN-8V-vYa">
-                                                                            <rect key="frame" x="11.5" y="0.0" width="31" height="24.500000000000007"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="62" height="49"/>
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="交易成功" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jE-dS-TzV">
-                                                                            <rect key="frame" x="0.0" y="29.5" width="53.5" height="16"/>
+                                                                            <rect key="frame" x="4.5" y="54" width="53.5" height="16"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
+                                                                    <gestureRecognizers/>
+                                                                    <connections>
+                                                                        <outletCollection property="gestureRecognizers" destination="wVW-AO-U9R" appends="YES" id="w2O-1B-PQF"/>
+                                                                    </connections>
                                                                 </stackView>
                                                             </subviews>
                                                         </stackView>
@@ -1152,6 +1187,7 @@
                     <navigationItem key="navigationItem" id="Q8d-Nt-sX7"/>
                     <connections>
                         <segue destination="K1G-xf-NQU" kind="show" identifier="NotificationTableViewController" id="sZk-9G-Zcs"/>
+                        <segue destination="gge-B7-DpA" kind="show" identifier="OrderTableViewController" id="agh-Yy-VdK"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="muP-5x-Nhi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1168,6 +1204,26 @@
                 <tapGestureRecognizer id="89Z-s3-flW">
                     <connections>
                         <segue destination="HBz-2a-lMI" kind="show" id="LDU-kx-0J2"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ekn-cj-I11">
+                    <connections>
+                        <action selector="waitToPay:" destination="0yY-gu-qo0" id="gbz-QB-cjl"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="yMv-To-HYP">
+                    <connections>
+                        <action selector="waitToSend:" destination="0yY-gu-qo0" id="kxA-IV-74s"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="iEc-MV-HVk">
+                    <connections>
+                        <action selector="waitToAppraise:" destination="0yY-gu-qo0" id="lDT-G1-794"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="wVW-AO-U9R">
+                    <connections>
+                        <action selector="tranSuc:" destination="0yY-gu-qo0" id="Glj-KP-Rsz"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

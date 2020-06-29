@@ -16,6 +16,7 @@ target 'HZ' do
   pod 'MBProgressHUD'
   pod 'SDCycleScrollView'
   pod 'MJExtension'
+  pod 'MJRefresh'
   
   target 'HZTests' do
     inherit! :search_paths

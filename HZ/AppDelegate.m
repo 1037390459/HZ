@@ -11,8 +11,8 @@
 
 #import "Device/Controller/DeviceViewController.h"
 #import "Market/Controller/MarketViewController.h"
-#import "Advisory/Controller/AdvisoryViewController.h"
 #import "MineTableViewController.h"
+#import "ZiXunTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -73,7 +73,7 @@
     marketNa.tabBarItem.title = @"商城";
     [marketNa.tabBarItem setTitleTextAttributes:[SingleHelper getAttributesWithFont:UIFontMake(12.0) andColor:[UIColor redColor]] forState:UIControlStateSelected];
     // 咨询
-    AdvisoryViewController * advisoryVC = [[AdvisoryViewController alloc]init];
+    ZiXunTableViewController * advisoryVC = [UIStoryboard storyboardWithName:@"ZiXun" bundle:nil].instantiateInitialViewController;
     advisoryVC.title = @"咨询";
     advisoryVC.hidesBottomBarWhenPushed = NO;
     QMUINavigationController * advisoryNa = [[QMUINavigationController alloc]initWithRootViewController:advisoryVC];

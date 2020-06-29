@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		3D258CA1A9F56C018F5C06A5 /* libPods-HZTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E53AAED78D8E85EB27BAEB /* libPods-HZTests.a */; };
 		7B0AF2B024A8F1C2000CE992 /* WenTiFk2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0AF2AF24A8F1C2000CE992 /* WenTiFk2ViewController.m */; };
+		7B0AF2B324AA2956000CE992 /* OrderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0AF2B224AA2956000CE992 /* OrderTableViewController.m */; };
+		7B0AF2B724AA2F36000CE992 /* OrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0AF2B524AA2F36000CE992 /* OrderCell.m */; };
+		7B0AF2B824AA2F36000CE992 /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0AF2B624AA2F36000CE992 /* OrderCell.xib */; };
+		7B0AF2BA24AA399E000CE992 /* ZiXun.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0AF2B924AA399E000CE992 /* ZiXun.storyboard */; };
+		7B0AF2BE24AA3A08000CE992 /* ZiXunTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0AF2BD24AA3A08000CE992 /* ZiXunTableViewController.m */; };
+		7B0AF2C224AA3F2C000CE992 /* ZiXunModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0AF2C124AA3F2C000CE992 /* ZiXunModel.m */; };
 		7B26E6A92497B156002CDA15 /* NSObject+NetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B26E6A72497B156002CDA15 /* NSObject+NetWorking.m */; };
 		7B26E6AF2497B7DE002CDA15 /* MBProgressHUD+KR.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B26E6AE2497B7DE002CDA15 /* MBProgressHUD+KR.m */; };
 		7B26E6B22497C725002CDA15 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B26E6B12497C725002CDA15 /* UserInfo.m */; };
@@ -65,7 +71,6 @@
 		D230B0BE2333162F004E6802 /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0BD2333162F004E6802 /* DeviceModel.m */; };
 		D230B0C12333213B004E6802 /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0C02333213B004E6802 /* DeviceViewController.m */; };
 		D230B0D1233351E5004E6802 /* MarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0D0233351E5004E6802 /* MarketViewController.m */; };
-		D230B0D423335248004E6802 /* AdvisoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0D323335248004E6802 /* AdvisoryViewController.m */; };
 		D230B0D723335292004E6802 /* MineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0D623335292004E6802 /* MineTableViewController.m */; };
 		D230B0DB23336283004E6802 /* AddDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0DA23336283004E6802 /* AddDeviceViewController.m */; };
 		D230B0DE23336780004E6802 /* QMUICommonTableViewController+LC.m in Sources */ = {isa = PBXBuildFile; fileRef = D230B0DD23336780004E6802 /* QMUICommonTableViewController+LC.m */; };
@@ -116,6 +121,16 @@
 		74E53AAED78D8E85EB27BAEB /* libPods-HZTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0AF2AE24A8F1C2000CE992 /* WenTiFk2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WenTiFk2ViewController.h; sourceTree = "<group>"; };
 		7B0AF2AF24A8F1C2000CE992 /* WenTiFk2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WenTiFk2ViewController.m; sourceTree = "<group>"; };
+		7B0AF2B124AA2956000CE992 /* OrderTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderTableViewController.h; sourceTree = "<group>"; };
+		7B0AF2B224AA2956000CE992 /* OrderTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderTableViewController.m; sourceTree = "<group>"; };
+		7B0AF2B424AA2F36000CE992 /* OrderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderCell.h; sourceTree = "<group>"; };
+		7B0AF2B524AA2F36000CE992 /* OrderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderCell.m; sourceTree = "<group>"; };
+		7B0AF2B624AA2F36000CE992 /* OrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderCell.xib; sourceTree = "<group>"; };
+		7B0AF2B924AA399E000CE992 /* ZiXun.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ZiXun.storyboard; sourceTree = "<group>"; };
+		7B0AF2BC24AA3A08000CE992 /* ZiXunTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZiXunTableViewController.h; sourceTree = "<group>"; };
+		7B0AF2BD24AA3A08000CE992 /* ZiXunTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZiXunTableViewController.m; sourceTree = "<group>"; };
+		7B0AF2C024AA3F2C000CE992 /* ZiXunModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZiXunModel.h; sourceTree = "<group>"; };
+		7B0AF2C124AA3F2C000CE992 /* ZiXunModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZiXunModel.m; sourceTree = "<group>"; };
 		7B26E6A72497B156002CDA15 /* NSObject+NetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NetWorking.m"; sourceTree = "<group>"; };
 		7B26E6A82497B156002CDA15 /* NSObject+NetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NetWorking.h"; sourceTree = "<group>"; };
 		7B26E6AD2497B7DE002CDA15 /* MBProgressHUD+KR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+KR.h"; sourceTree = "<group>"; };
@@ -222,8 +237,6 @@
 		D230B0C02333213B004E6802 /* DeviceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
 		D230B0CF233351E5004E6802 /* MarketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketViewController.h; sourceTree = "<group>"; };
 		D230B0D0233351E5004E6802 /* MarketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketViewController.m; sourceTree = "<group>"; };
-		D230B0D223335248004E6802 /* AdvisoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvisoryViewController.h; sourceTree = "<group>"; };
-		D230B0D323335248004E6802 /* AdvisoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvisoryViewController.m; sourceTree = "<group>"; };
 		D230B0D523335292004E6802 /* MineTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineTableViewController.h; sourceTree = "<group>"; };
 		D230B0D623335292004E6802 /* MineTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineTableViewController.m; sourceTree = "<group>"; };
 		D230B0D923336283004E6802 /* AddDeviceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddDeviceViewController.h; sourceTree = "<group>"; };
@@ -315,6 +328,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7B0AF2BB24AA39D9000CE992 /* ZiXun */ = {
+			isa = PBXGroup;
+			children = (
+				7B0AF2BC24AA3A08000CE992 /* ZiXunTableViewController.h */,
+				7B0AF2BD24AA3A08000CE992 /* ZiXunTableViewController.m */,
+			);
+			path = ZiXun;
+			sourceTree = "<group>";
+		};
+		7B0AF2BF24AA3EC5000CE992 /* article */ = {
+			isa = PBXGroup;
+			children = (
+				7B0AF2C024AA3F2C000CE992 /* ZiXunModel.h */,
+				7B0AF2C124AA3F2C000CE992 /* ZiXunModel.m */,
+			);
+			path = article;
+			sourceTree = "<group>";
+		};
 		7B4E4F5A249F746D00804B5F /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +358,9 @@
 				7BC75A4524A8EC0200B7160F /* WenTiFkCell.h */,
 				7BC75A4624A8EC0200B7160F /* WenTiFkCell.m */,
 				7BC75A4724A8EC0200B7160F /* WenTiFkCell.xib */,
+				7B0AF2B424AA2F36000CE992 /* OrderCell.h */,
+				7B0AF2B524AA2F36000CE992 /* OrderCell.m */,
+				7B0AF2B624AA2F36000CE992 /* OrderCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -334,6 +368,7 @@
 		7B4E4F5B249F748100804B5F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7B0AF2BF24AA3EC5000CE992 /* article */,
 				7BC75A3224A5F20100B7160F /* order */,
 				7BC75A3124A5F1FB00B7160F /* sn */,
 				7BC75A3024A5F1E700B7160F /* goods */,
@@ -552,16 +587,6 @@
 			path = Market;
 			sourceTree = "<group>";
 		};
-		D230B0C42333514A004E6802 /* Advisory */ = {
-			isa = PBXGroup;
-			children = (
-				D230B0CB23335194004E6802 /* Model */,
-				D230B0CA2333518F004E6802 /* View */,
-				D230B0C923335189004E6802 /* Controller */,
-			);
-			path = Advisory;
-			sourceTree = "<group>";
-		};
 		D230B0C523335167004E6802 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
@@ -589,6 +614,8 @@
 				7B0AF2AF24A8F1C2000CE992 /* WenTiFk2ViewController.m */,
 				7BC75A2624A2535500B7160F /* FeiYongMxTableViewController.h */,
 				7BC75A2724A2535500B7160F /* FeiYongMxTableViewController.m */,
+				7B0AF2B124AA2956000CE992 /* OrderTableViewController.h */,
+				7B0AF2B224AA2956000CE992 /* OrderTableViewController.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -618,29 +645,6 @@
 			children = (
 				D22671622334C3B3006B11C5 /* MarketCellModel.h */,
 				D22671632334C3B3006B11C5 /* MarketCellModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D230B0C923335189004E6802 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				D230B0D223335248004E6802 /* AdvisoryViewController.h */,
-				D230B0D323335248004E6802 /* AdvisoryViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		D230B0CA2333518F004E6802 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D230B0CB23335194004E6802 /* Model */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -758,8 +762,8 @@
 				7B4E4F66249F78C200804B5F /* Vendor */,
 				7B4E4F5B249F748100804B5F /* Model */,
 				7B4E4F5A249F746D00804B5F /* View */,
+				7B0AF2BB24AA39D9000CE992 /* ZiXun */,
 				D230B0C523335167004E6802 /* Mine */,
-				D230B0C42333514A004E6802 /* Advisory */,
 				D230B0C323335114004E6802 /* Market */,
 				D20096F323330B7100078E76 /* Device */,
 				D20096F223330B5800078E76 /* LoginWithRegister */,
@@ -771,6 +775,7 @@
 				D2F0A3F0232F361700DB4B99 /* ViewController.m */,
 				D2F0A3F2232F361700DB4B99 /* Main.storyboard */,
 				7BEDE0E8249F4A4C00F90F35 /* Mine.storyboard */,
+				7B0AF2B924AA399E000CE992 /* ZiXun.storyboard */,
 				D2F0A3F5232F361700DB4B99 /* Assets.xcassets */,
 				D2F0A3F7232F361700DB4B99 /* LaunchScreen.storyboard */,
 				D2F0A3FA232F361700DB4B99 /* Info.plist */,
@@ -947,8 +952,10 @@
 			files = (
 				D2F0A3F9232F361700DB4B99 /* LaunchScreen.storyboard in Resources */,
 				D2F0A3F6232F361700DB4B99 /* Assets.xcassets in Resources */,
+				7B0AF2B824AA2F36000CE992 /* OrderCell.xib in Resources */,
 				7BC75A4924A8EC0200B7160F /* WenTiFkCell.xib in Resources */,
 				7BC75A1C24A23D1E00B7160F /* NotificationCell.xib in Resources */,
+				7B0AF2BA24AA399E000CE992 /* ZiXun.storyboard in Resources */,
 				7B4E4F65249F788100804B5F /* MLPickerView.xib in Resources */,
 				D2F0A3F4232F361700DB4B99 /* Main.storyboard in Resources */,
 				7BEDE0E9249F4A4C00F90F35 /* Mine.storyboard in Resources */,
@@ -1050,6 +1057,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B0AF2BE24AA3A08000CE992 /* ZiXunTableViewController.m in Sources */,
 				7B9E456424A0DE7600794384 /* QrCodeViewController.m in Sources */,
 				7BC75A3824A5F27B00B7160F /* CategoryModel.m in Sources */,
 				D240040D23306901003FE529 /* LoginViewController.m in Sources */,
@@ -1064,9 +1072,10 @@
 				D2BC6B722338B89F0072343C /* PayWayTableViewCell.m in Sources */,
 				7B4E4F64249F788100804B5F /* MLPickerView.m in Sources */,
 				D230B0D1233351E5004E6802 /* MarketViewController.m in Sources */,
-				D230B0D423335248004E6802 /* AdvisoryViewController.m in Sources */,
 				7BC75A2224A2511D00B7160F /* JiFengTableViewController.m in Sources */,
+				7B0AF2B324AA2956000CE992 /* OrderTableViewController.m in Sources */,
 				7BC75A2524A251CE00B7160F /* WenTiFkTableViewController.m in Sources */,
+				7B0AF2C224AA3F2C000CE992 /* ZiXunModel.m in Sources */,
 				7B26E6B52497C909002CDA15 /* UserModel.m in Sources */,
 				7BC75A4824A8EC0200B7160F /* WenTiFkCell.m in Sources */,
 				D240041523308C6D003FE529 /* AreaSelectViewController.m in Sources */,
@@ -1104,6 +1113,7 @@
 				7BC75A2B24A5EC9100B7160F /* IntegralModel.m in Sources */,
 				D230B0DB23336283004E6802 /* AddDeviceViewController.m in Sources */,
 				D20096E32331D7C400078E76 /* VerfiViewController.m in Sources */,
+				7B0AF2B724AA2F36000CE992 /* OrderCell.m in Sources */,
 				D230B0BE2333162F004E6802 /* DeviceModel.m in Sources */,
 				7BEDE0E7249F3EEC00F90F35 /* ForgetPsd3ViewController.m in Sources */,
 				7BEDE0EC249F54B200F90F35 /* AccountTableViewController.m in Sources */,

@@ -185,14 +185,12 @@
 }
 
 - (void)registerAccount{
-    NSLog(@"resigter api");
     RegisteredWithAreaAndNumVC * registerVC = [[RegisteredWithAreaAndNumVC alloc]init];
     registerVC.countryId = self.countryId;
     [self.navigationController pushViewController:registerVC animated:YES];
 }
 
 - (void)reFoundAccountPsd{
-    NSLog(@"forget pwd api");
     ForgetPsdViewController * forgetVC = [[ForgetPsdViewController alloc]init];
     forgetVC.countryId = self.countryId;
     [self.navigationController pushViewController:forgetVC animated:YES];

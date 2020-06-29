@@ -8,6 +8,7 @@
 
 #import "MineTableViewController.h"
 #import "NotificationTableViewController.h"
+#import "OrderTableViewController.h"
 
 @interface MineTableViewController ()
 
@@ -41,6 +42,23 @@
     self.tableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
 }
 
+#pragma mark IBAction
+- (IBAction)waitToPay:(id)sender {
+    [self performSegueWithIdentifier:NSStringFromClass([OrderTableViewController class]) sender:nil];
+}
+
+- (IBAction)waitToSend:(id)sender {
+    [self performSegueWithIdentifier:NSStringFromClass([OrderTableViewController class]) sender:nil];
+}
+
+- (IBAction)waitToAppraise:(id)sender {
+    [self performSegueWithIdentifier:NSStringFromClass([OrderTableViewController class]) sender:nil];
+}
+
+- (IBAction)tranSuc:(id)sender {
+    [self performSegueWithIdentifier:NSStringFromClass([OrderTableViewController class]) sender:nil];
+}
+
 #pragma mark tableview delegate
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     return 14;
@@ -49,7 +67,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
     return 0;
 }
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -57,6 +75,6 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-*/
+
 
 @end

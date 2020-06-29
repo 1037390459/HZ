@@ -17,6 +17,7 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
   - MJExtension (3.2.1)
+  - MJRefresh (3.3.1)
   - QMUIKit (4.0.0):
     - QMUIKit/QMUIComponents (= 4.0.0)
     - QMUIKit/QMUICore (= 4.0.0)
@@ -323,6 +324,7 @@ DEPENDENCIES:
   - Masonry
   - MBProgressHUD
   - MJExtension
+  - MJRefresh
   - QMUIKit (= 4.0.0)
   - SDCycleScrollView
   - SDWebImage
@@ -334,6 +336,7 @@ SPEC REPOS:
     - Masonry
     - MBProgressHUD
     - MJExtension
+    - MJRefresh
     - QMUIKit
     - SDCycleScrollView
     - SDWebImage
@@ -344,11 +347,12 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
   QMUIKit: b14f5d06b81d01b908e4fa2e6d0177804c6ae0f6
   SDCycleScrollView: b3c9a5ed840c771c4938978174c7c9d9feefeb96
   SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
   ZJScrollPageView: dd8778909cb2413782616ab156e873956f6b0682
 
-PODFILE CHECKSUM: 827683823806c6c80c2105098239aa742de73476
+PODFILE CHECKSUM: 40058ec413e5e0451bbbaec102bd9bee37088998
 
 COCOAPODS: 1.7.5

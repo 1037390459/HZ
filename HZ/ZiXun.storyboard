@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hfZ-xG-J02">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--咨询-->
+        <scene sceneID="4ny-FI-MKR">
+            <objects>
+                <tableViewController title="咨询" hidesBottomBarWhenPushed="YES" id="hfZ-xG-J02" customClass="ZiXunTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="w6l-gV-g6R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellId" id="3jP-rh-QoF">
+                                <rect key="frame" x="0.0" y="28" width="414" height="84"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3jP-rh-QoF" id="MtP-ni-N8y">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="84"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lrq-Yo-F4i">
+                                            <rect key="frame" x="10" y="10" width="394" height="74"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="扫地机的毛刷总是坏" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUg-XJ-bth">
+                                                    <rect key="frame" x="8" y="5" width="378" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" text="如题，自从买了赫兹扫地机后，我变得很轻松，但是吧扫地机的毛刷总是坏，我这也没怎么过分的使用它，为什么呢？" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTY-PP-P0g">
+                                                    <rect key="frame" x="8" y="32" width="378" height="32"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.85882352939999995" green="0.85882352939999995" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.32549019610000002" green="0.33333333329999998" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="aUg-XJ-bth" secondAttribute="trailing" constant="8" id="0IK-L4-8hI"/>
+                                                <constraint firstItem="oTY-PP-P0g" firstAttribute="top" secondItem="aUg-XJ-bth" secondAttribute="bottom" constant="10" id="7yj-3r-HTS"/>
+                                                <constraint firstAttribute="trailing" secondItem="oTY-PP-P0g" secondAttribute="trailing" constant="8" id="8JB-Zz-Jp2"/>
+                                                <constraint firstItem="aUg-XJ-bth" firstAttribute="leading" secondItem="lrq-Yo-F4i" secondAttribute="leading" constant="8" id="S9y-fg-dyo"/>
+                                                <constraint firstItem="aUg-XJ-bth" firstAttribute="top" secondItem="lrq-Yo-F4i" secondAttribute="top" constant="5" id="c0x-ti-tjK"/>
+                                                <constraint firstAttribute="bottom" secondItem="oTY-PP-P0g" secondAttribute="bottom" constant="10" id="iOz-2e-96s"/>
+                                                <constraint firstItem="oTY-PP-P0g" firstAttribute="leading" secondItem="lrq-Yo-F4i" secondAttribute="leading" constant="8" id="xI6-WQ-yow"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="lrq-Yo-F4i" firstAttribute="top" secondItem="MtP-ni-N8y" secondAttribute="top" constant="10" id="4N5-fZ-6US"/>
+                                        <constraint firstAttribute="trailing" secondItem="lrq-Yo-F4i" secondAttribute="trailing" constant="10" id="IVc-eE-cfT"/>
+                                        <constraint firstItem="lrq-Yo-F4i" firstAttribute="leading" secondItem="MtP-ni-N8y" secondAttribute="leading" constant="10" id="Xov-Ae-wHa"/>
+                                        <constraint firstAttribute="bottom" secondItem="lrq-Yo-F4i" secondAttribute="bottom" id="gYi-Zc-OJx"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="hfZ-xG-J02" id="KnV-Xk-deT"/>
+                            <outlet property="delegate" destination="hfZ-xG-J02" id="gUW-Ng-c71"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="bCU-hD-Ptf"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1zt-bK-Mfx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="2112"/>
+        </scene>
+    </scenes>
+</document>
